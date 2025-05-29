@@ -1,4 +1,4 @@
-import { ArrowDown, Download } from 'lucide-react';
+import { ArrowDown, Download } from "lucide-react"
 
 const Hero = () => {
   return (
@@ -9,22 +9,22 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
               Hi, I'm <span className="text-indigo-600">Sonu kumar</span>
             </h1>
-            <h2 className="text-2xl md:text-3xl text-gray-600 font-light">
-              Full Stack Developer
-            </h2>
-            <p className="text-lg text-gray-600 max-w-lg">  
-            I build clean, responsive, and user-friendly digital experiences that are fast, accessible, and visually appealing.
+            <h2 className="text-2xl md:text-3xl text-gray-600 font-light">Full Stack Developer</h2>
+            <p className="text-lg text-gray-600 max-w-lg">
+              I build clean, responsive, and user-friendly digital experiences that are fast, accessible, and visually
+              appealing.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <a 
-                href="#contact" 
+              <a
+                href="#contact"
                 className="px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition-colors flex items-center gap-2"
               >
                 Contact Me
                 <ArrowDown size={18} />
               </a>
-              <a 
-                href="#" 
+              <a
+                href="/assets/Sonu-Kumar-CV.pdf"
+                download="Sonu-Kumar-CV.pdf"
                 className="px-6 py-3 border border-indigo-600 text-indigo-600 font-medium rounded-lg hover:bg-indigo-50 transition-colors flex items-center gap-2"
               >
                 Download CV
@@ -34,17 +34,13 @@ const Hero = () => {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
-              <img 
-                src="./assets/pps.png" 
-                alt="Sonu Kumar" 
-                className="w-full h-full object-cover"
-              />
+              <img src="./assets/pps.png" alt="Sonu Kumar" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero
