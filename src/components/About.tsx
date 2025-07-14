@@ -2,8 +2,8 @@ import { Briefcase, Calendar, GraduationCap, MapPin } from 'lucide-react';
 
 const About = () => {
   const personalInfo = [
-    { icon: <Calendar size={20} />, label: 'Date of Birth', value: 'March 03, 2002' },
-    { icon: <MapPin size={20} />, label: 'Location', value: 'Faridabad, Hariyana , India 121003' },
+    { icon: <Calendar size={20} />, label: 'Date of Birth', value: 'October 10, 2002' },
+    { icon: <MapPin size={20} />, label: 'Location', value: 'Noida, Uttar Pradesh, India 201310' },
     { icon: <Briefcase size={20} />, label: 'Experience', value: 'Fresher' },
     { icon: <GraduationCap size={20} />, label: 'Degree', value: 'Master of Computer Applications' },
   ];
@@ -19,7 +19,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="md:w-1/2">
             <img 
-              src="./assets/fullimage.png?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+              src="/RahulImage.png?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
               alt="About Me" 
               className="rounded-lg shadow-xl w-full max-w-md mx-auto"
             />

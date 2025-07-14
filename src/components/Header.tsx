@@ -31,8 +31,8 @@ const Header = () => {
   ];
 
   const socialLinks = [
-    { icon: <Github size={20} />, href: 'https://github.com/Sonukumar420' },
-    { icon: <Linkedin size={20} />, href: 'https://www.linkedin.com/in/sonu-kumar-a82629291' },
+    { icon: <Github size={20} />, href: 'https://github.com/Rahul3525' },
+    { icon: <Linkedin size={20} />, href: 'https://www.linkedin.com/in/rahulkumar3525/' },
     // { icon: <Twitter size={20} />, href: 'https://twitter.com' },
   ];
 
@@ -44,7 +44,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
-          <a href="#home" className="text-2xl font-bold text-indigo-600">Portfolio</a>
+          <a href="#home" className="text-2xl font-bold text-indigo-600">RAHUL KUMAR </a>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">

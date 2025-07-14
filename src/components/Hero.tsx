@@ -1,4 +1,4 @@
-import { ArrowDown, Download } from "lucide-react"
+import { ArrowDown } from "lucide-react"
 
 const Hero = () => {
   return (
@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="md:w-1/2 space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
-              Hi, I'm <span className="text-indigo-600">Sonu kumar</span>
+              Hi, I'm <span className="text-indigo-600">Rahul kumar</span>
             </h1>
             <h2 className="text-2xl md:text-3xl text-gray-600 font-light">Full Stack Developer</h2>
             <p className="text-lg text-gray-600 max-w-lg">
@@ -22,19 +22,19 @@ const Hero = () => {
                 Contact Me
                 <ArrowDown size={18} />
               </a>
-              <a
-                href="/assets/Sonu-Kumar-CV.pdf"
-                download="Sonu-Kumar-CV.pdf"
+              {/* <a
+                href="/assets/Rahul-Kumar-CV.pdf"
+                download="Rahul-Kumar-CV.pdf"
                 className="px-6 py-3 border border-indigo-600 text-indigo-600 font-medium rounded-lg hover:bg-indigo-50 transition-colors flex items-center gap-2"
               >
                 Download CV
                 <Download size={18} />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
-              <img src="./assets/pps.png" alt="Sonu Kumar" className="w-full h-full object-cover" />
+              <img src="/Dp.png" alt="Rahul Kumar" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

@@ -5,22 +5,22 @@ const Skills = () => {
     {
       icon: <Code size={24} />,
       title: 'Frontend Development',
-      skills: ['React', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap', 'Framer Motion']
+      skills: ['React', 'JavaScript', 'HTML5', 'CSS3','Bootstrap',]
     },
     {
       icon: <Server size={24} />,
       title: 'Backend Development',
-      skills: ['Node.js', 'Express', 'Python', ]
+      skills: ['Node.js', 'Express', 'Core Java', ]
     },
     {
       icon: <Database size={24} />,
       title: 'Database',
-      skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase',]
+      skills: ['MongoDB', 'MySQL',]
     },
     {
       icon: <Globe size={24} />,
       title: 'DevOps & Tools',
-      skills: ['Git', 'Docker', 'AWS', 'CI/CD',]
+      skills: ['Git']
     }
   ];
 

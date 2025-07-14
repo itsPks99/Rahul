@@ -16,13 +16,13 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold text-indigo-400 mb-4">Sonu Kumar</h3>
+            <h3 className="text-2xl font-bold text-indigo-400 mb-4">Rahul Kumar</h3>
             <p className="text-gray-400 mb-4 max-w-md">
               A passionate Full Stack Developer focused on creating intuitive and engaging web experiences.
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/Sonukumar420" 
+                href="https://github.com/Rahul3525" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -32,7 +32,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://www.linkedin.com/in/sonu-kumar-a82629291" 
+                href="https://www.linkedin.com/in/rahulkumar3525/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -73,16 +73,16 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Faridabad, Hariyana , India 121003</li>
-              <li>sonukumar91613748@gmail.com</li>
-              <li>+91 7992408059</li>
+              <li>Noida, Uttar Pradesh, India 201310</li>
+              <li>rahulkrr3525@gmail.com</li>
+              <li>+91 7301251684</li>
             </ul>
           </div>
         </div>
         
         <div className="pt-8 border-t border-gray-800 text-center text-gray-400">
           <p className="flex items-center justify-center gap-1">
-            © {currentYear} Sonu Kumar. All rights reserved. Made with <Heart size={16} className="text-red-500" /> by Sonu Kumar
+            © {currentYear} Rahul Kumar. All rights reserved. Made with <Heart size={16} className="text-red-500" /> by Rahul Kumar
           </p>
         </div>
       </div>
