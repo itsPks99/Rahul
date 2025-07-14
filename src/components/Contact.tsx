@@ -48,7 +48,7 @@ const Contact = () => {
       icon: <Phone size={24} />,
       title: 'Phone',
       value: '+91 7301251684',
-      link: 'tel:+11234567890'
+      link: 'tel:+917301251684'
     },
     {
       icon: <MapPin size={24} />,
@@ -98,7 +98,7 @@ const Contact = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Follow Me</h3>
               <div className="flex gap-4">
                 <a 
-                  href="https://github.com/Sonukumar420" 
+                  href="https://github.com/Rahul3525" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-indigo-600 hover:text-white transition-colors"
@@ -108,7 +108,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://www.linkedin.com/in/sonu-kumar-a82629291" 
+                  href="https://www.linkedin.com/in/rahulkumar3525/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-indigo-600 hover:text-white transition-colors"

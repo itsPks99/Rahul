@@ -2,7 +2,7 @@ import { Briefcase, Calendar, GraduationCap, MapPin } from 'lucide-react';
 
 const About = () => {
   const personalInfo = [
-    { icon: <Calendar size={20} />, label: 'Date of Birth', value: 'October 10, 2002' },
+    { icon: <Calendar size={20} />, label: 'Date of Birth', value: 'October 10, 2000' },
     { icon: <MapPin size={20} />, label: 'Location', value: 'Noida, Uttar Pradesh, India 201310' },
     { icon: <Briefcase size={20} />, label: 'Experience', value: 'Fresher' },
     { icon: <GraduationCap size={20} />, label: 'Degree', value: 'Master of Computer Applications' },
